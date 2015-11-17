@@ -11,3 +11,7 @@ This package is available on npm as:
 or
 
     npm install --save-dev browserify-haml-ruby
+
+## License
+
+[MIT License](http://en.wikipedia.org/wiki/MIT_License)
