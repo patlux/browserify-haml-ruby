@@ -19,7 +19,6 @@
   "license": "MIT",
   "devDependencies": {
     "browserify": "^12.0.1",
-    "browserify-transform-tools": "^1.5.0",
     "chai": "^3.4.1",
     "coffee-script": "^1.10.0",
     "coffeeify": "^1.1.0",
@@ -27,6 +26,7 @@
     "vinyl-source-stream": "^1.1.0"
   },
   "dependencies": {
+    "browserify-transform-tools": "^1.5.0",
     "js-string-escape": "^1.0.0",
     "through": "^2.3.8",
     "win-spawn": "^2.0.0"
