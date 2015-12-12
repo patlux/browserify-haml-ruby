@@ -13,7 +13,8 @@
     "haml",
     "ruby",
     "browserify",
-    "transform"
+    "transform",
+    "browserify-transform"
   ],
   "author": "Patrick Wozniak <hello@patwoz.de>",
   "license": "MIT",
