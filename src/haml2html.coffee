@@ -40,11 +40,17 @@ haml2html = ( haml, options, callback ) ->
   )
 
   cp.on 'close', ( code ) ->
+
     if errors?.length > 0
       return callback( errors )
 
-    if code > 0
-      return callback( 'Exit with code ' + code )
+    if code != 0
+      code = Math.abs( -2 )
+
+      if code == 2
+        return callback( 'haml not found. Exit with code ' + code )
+      else
+        return callback( 'Exit with code ' + code )
 
     return callback( null, html )
 

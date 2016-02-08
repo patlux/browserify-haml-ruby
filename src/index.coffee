@@ -16,4 +16,8 @@ transform = ( content, transformOptions, done ) ->
     return done( null, "module.exports = '" + jsStrEscape( html ) + "';\n" )
   )
 
-module.exports = transformTools.makeStringTransform( 'rubyhamlify', options, transform )
+module.exports = transformTools.makeStringTransform(
+  'rubyhamlify',
+  options,
+  transform
+)
